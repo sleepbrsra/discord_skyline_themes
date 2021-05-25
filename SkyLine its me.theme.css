@@ -1,0 +1,32 @@
+/**
+ * @name SkyLine it`s me
+ * @author sleep Br.Sra#4828
+ * @version 1.0.0
+ * @description A cool, SkyLine theme.
+*/
+
+@import url("https://discordstyles.github.io/RadialStatus/base.css");
+@import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
+
+/* Variables */
+:root {
+    --avatar-size: 42px;
+    --background-image: url('https://i.redd.it/9v7a9o7j0f061.jpg');
+    --home-image: url('https://media1.tenor.com/images/76bcbe11d5e124c74ea17cc12c421e30/tenor.gif?itemid=20776134');
+    --background-solid: #8009b8;
+    --background-solid-dark: #8009b8;
+    --background-solid-darker: #8109b9;
+    --accent: 129, 9, 185;
+    --accent-alt: 129, 9, 185;
+    --rs-small-spacing: 1px;  /* spacing between avatar and status */
+
+  --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
+  --rs-width: 2px;  /* Width/thickness of status border */
+  --rs-avatar-shape: 23%;  /* 50% for round - 0% for square */
+  --rs-online-color: #43b581;  /* color for online status */
+  --rs-idle-color: #faa61a;  /* color for idle status */
+  --rs-dnd-color: #f04747;  /* color for dnd status */
+  --rs-offline-color: #636b75;  /* color for offline status */
+  --rs-streaming-color: #643da7;  /* color for streaming status */
+  --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
+}
